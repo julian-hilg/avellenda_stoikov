@@ -316,7 +316,7 @@ class Visualiser:
         metrics = ['profit', 'std_profit', 'sharpe_ratio', 'final_q', 'std_final_q']
         
         fig, axes = plt.subplots(len(metrics), 1, figsize=(12, 4 * len(metrics)))
-        fig.suptitle('Comprehensive Strategy Comparison', fontsize=16, fontweight='bold')
+        fig.suptitle('Strategy Comparison', fontsize=16, fontweight='bold')
         
         for idx, metric in enumerate(metrics):
             ax = axes[idx]
