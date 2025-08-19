@@ -237,14 +237,10 @@ avellenda_stoikov/
 │   │   ├── base.py             # Abstract DataClient
 │   │   └── simulated.py        # Market simulation
 │   │
-│   ├── market_making/          # Trading components
-│   │   ├── avellaneda_stoikov.py
-│   │   ├── inventory_manager.py
-│   │   └── risk_metrics.py
-│   │
-│   └── backtesting/            # Backtesting framework
-│       ├── backtest_engine.py
-│       └── performance_analyzer.py
+│   └── market_making/          # Trading components
+│       ├── avellaneda_stoikov.py
+│       ├── inventory_manager.py
+│       └── risk_metrics.py
 │
 ├── visualisations/             # Output directory
 │   ├── simulation.png          # Price evolution & quotes
